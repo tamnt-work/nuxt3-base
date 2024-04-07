@@ -1,0 +1,18 @@
+// Custom global styles here
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  width: 100% !important;
+  color: theme("colors.gray.700");
+}
+
+a {
+  cursor: pointer;
+
+  &:hover,
+  &.active {
+    color: theme("colors.primary");
+  }
+}

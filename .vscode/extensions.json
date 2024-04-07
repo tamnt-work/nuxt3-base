@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "tamntwork.tamntwork-code-generator",
+    "dbaeumer.vscode-eslint",
+    "lokalise.i18n-ally",
+    "antfu.iconify",
+    "esbenp.prettier-vscode",
+    "stylelint.vscode-stylelint",
+    "vue.vscode-typescript-vue-plugin",
+    "Vue.volar"
+  ]
+}

@@ -1,0 +1,43 @@
+.the-table {
+  &__toolbar {
+    margin-bottom: theme("common.space.sm");
+
+    &__main {
+      display: flex;
+      align-items: center;
+      gap: theme("common.space.md");
+      flex-wrap: wrap;
+    }
+
+    &__content {
+      flex: 1;
+      display: flex;
+      align-items: center;
+    }
+
+    &__page-size {
+      display: flex;
+      align-items: center;
+
+      & > span {
+        font-size: 14px;
+        white-space: nowrap;
+      }
+
+      & > .el-select {
+        min-width: 68px;
+        margin-left: theme("common.space.sm");
+      }
+    }
+
+    &__extra {
+      margin-top: theme("common.space.md");
+    }
+  }
+
+  &__pagination {
+    &.el-pagination {
+      display: inline-flex;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.the-divider {
+  &.el-divider {
+    &--horizontal {
+      margin: theme("common.space.md") 0;
+    }
+  }
+}

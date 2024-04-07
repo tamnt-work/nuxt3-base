@@ -1,0 +1,24 @@
+$size: 32px; // => h1 = 32px, h2 = 24px, h3 = 20px, h4 = 16px, h5 = 14px, h6 = 12px
+
+@for $i from 1 through 6 {
+  h#{$i}.the-heading {
+    font-size: $size - ($i * 4);
+  }
+}
+
+.the-heading {
+  font-weight: bold;
+  color: theme("colors.gray.700");
+
+  &--left {
+    text-align: left;
+  }
+
+  &--center {
+    text-align: center;
+  }
+
+  &--right {
+    text-align: right;
+  }
+}

@@ -1,0 +1,26 @@
+.the-table-filter {
+  display: flex;
+  gap: theme("common.space.md");
+  flex-wrap: wrap;
+
+  &__before,
+  &__after {
+    padding: theme("common.space.md");
+    border: 1px solid theme("colors.gray.200");
+    border-radius: theme("common.radius.md");
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__before {
+    width: 100%;
+
+    @screen sm {
+      width: auto;
+    }
+  }
+
+  &__after {
+    flex: 1;
+  }
+}

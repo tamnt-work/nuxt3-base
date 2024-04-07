@@ -1,0 +1,15 @@
+.the-nav-button {
+  &.el-button {
+    height: auto;
+    min-height: 100px;
+    border-radius: 100px;
+    font-size: 24px;
+    padding: theme("common.space.md");
+    position: relative;
+    border: none;
+  }
+
+  :deep(.the-button__suffix-icon) {
+    right: theme("common.space.md");
+  }
+}

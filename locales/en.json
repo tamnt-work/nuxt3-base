@@ -1,0 +1,137 @@
+{
+  "appName": "Nuxt 3 Base",
+  "common": {
+    "actions": {
+      "ok": "OK",
+      "cancel": "Cancel",
+      "save": "Save",
+      "delete": "Delete",
+      "add": "Add",
+      "update": "Update",
+      "confirm": "Confirm",
+      "logout": "Logout",
+      "login": "Login",
+      "back": "Back",
+      "next": "Next",
+      "refresh": "Refresh",
+      "submit": "Submit",
+      "signUp": "Sign Up",
+      "sortOrderNarrowDown": "Sort Order/Narrow Down",
+      "salesDetailsRegistration": "Sales Details Registration",
+      "adaptation": "Adaptation"
+    },
+    "messages": {
+      "loading": "Loading...",
+      "redirecting": "Redirecting..."
+    },
+    "validate": {
+      "required": "{field} is required.",
+      "minLength": "{field} must be at least {length} characters long.",
+      "maxLength": "{field} must be less than {length} characters.",
+      "maxSize": "{field} must be smaller than {size}.",
+      "notMatch": "{field} must match {matchField}.",
+      "password": "{field} must contain at least 8 characters, 1 uppercase, 1 lowercase, 1 number, and 1 special character."
+    },
+    "fields": {
+      "loginId": "Login ID",
+      "password": "Password",
+      "rememberPassword": "Remember login state"
+    },
+    "fieldPlaceholders": {
+      "loginId": "Enter Login ID",
+      "password": "Enter Password",
+      "select": "Select"
+    },
+    "pagination": {
+      "limit": "Show {limit} per page"
+    },
+    "menus": {
+      "top": {
+        "label": "Home"
+      },
+      "menuItem": {
+        "label": "Menu Item",
+        "children": {
+          "subMenuItem": "Sub Menu Item"
+        }
+      },
+      "accountSettings": {
+        "label": "Account Settings",
+        "children": {
+          "userManagement": "User Management",
+          "logout": "Logout"
+        }
+      }
+    },
+    "settingMenus": {
+      "userManagement": "User Management",
+      "logout": "Logout"
+    },
+    "sorting": {
+      "desc": "Descending",
+      "asc": "Ascending"
+    },
+    "specialCharacter": {
+      "tilde": "~"
+    },
+    "filter": {
+      "sortOrderSettings": "Sort Order Settings",
+      "filterSettings": "Filter Settings"
+    }
+  },
+  "layouts": {
+    "default": {
+      "sidebars": {
+        "dashboard": "Dashboard",
+        "notifications": "Notifications"
+      },
+      "header": {
+        "menu": "Menu",
+        "settings": "Settings",
+        "theme": "Theme"
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "TOP Page & Menu",
+      "content": {
+        "menuItem": "Menu Item",
+        "masterAdmin": "Master Admin",
+        "userManagement": "User Management"
+      }
+    },
+    "login": {
+      "title": "Login",
+      "content": {
+        "forgotIdOrPassword": "Forgot ID or Password?"
+      }
+    },
+    "listExample": {
+      "title": "List Example",
+      "content": {
+        "menuItem": "Menu Item"
+      }
+    },
+    "tableExample": {
+      "title": "Table Example",
+      "content": {
+        "registrationDate": "Registration Date",
+        "name": "Name",
+        "registeredPerson": "Registered Person",
+        "other": "Other"
+      }
+    },
+    "users": {
+      "title": "User Management",
+      "content": {
+        "edit": "Edit",
+        "firstAndLastName": "First and Last Name",
+        "email": "Email",
+        "registrationDateRange": "Registration Date Range",
+        "calculatorName": "Calculator Name",
+        "name": "Name"
+      }
+    }
+  }
+}

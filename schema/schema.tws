@@ -1,0 +1,6 @@
+user:
+  id: number <=> id
+  name: string <=> name
+  email: string <=> email
+  companyName: string <=> company.name
+  companyAddress: string <=> company.address.street

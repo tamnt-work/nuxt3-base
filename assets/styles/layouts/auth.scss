@@ -1,0 +1,7 @@
+.auth-layout {
+  min-height: 100vh;
+  padding: theme("common.space.xl") theme("common.space.md")
+    theme("common.space.lg");
+
+  @apply bg-gradient-to-b  from-sky-400 to-sky-600;
+}

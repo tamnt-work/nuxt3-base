@@ -1,0 +1,8 @@
+{
+  "modulePath": "/app",
+  "modelSuffix": ".model",
+  "mapperSuffix": ".mapper",
+  "entitySuffix": ".entity",
+  "overwrite": true,
+  "cleanModule": false
+}

@@ -1,0 +1,43 @@
+.the-menu {
+  &__item {
+    & + & {
+      margin-top: theme("common.space.sm");
+    }
+
+    & > a {
+      font-weight: bold;
+      color: theme("colors.gray.700");
+
+      &:hover,
+      &.active {
+        color: theme("colors.primary");
+      }
+    }
+  }
+
+  &__sub-menu {
+    margin-top: theme("common.space.sm");
+
+    &__block {
+      & + & {
+        margin-top: theme("common.space.md");
+      }
+    }
+
+    &__item {
+      & + & {
+        margin-top: theme("common.space.xs");
+      }
+
+      & > a {
+        color: theme("colors.gray.500");
+        font-size: 14px;
+
+        &:hover,
+        &.active {
+          color: theme("colors.primary");
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.the-header {
+  height: theme("common.header.height");
+  color: theme("colors.white");
+  width: 100%;
+
+  @apply bg-gradient-to-r  from-sky-600 to-sky-400;
+
+  :deep(.icon) {
+    color: theme("colors.white");
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: theme("common.space.md");
+  }
+
+  &__app-name {
+    margin-left: theme("common.space.md");
+    font-size: 18px;
+  }
+}
